@@ -10,8 +10,6 @@
 		81B0AEA92757649700F07D68 /* Secp256k1Signing.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B0AEA72757649700F07D68 /* Secp256k1Signing.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		81B0AEB42757651D00F07D68 /* Signer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0AEB32757651D00F07D68 /* Signer.swift */; };
 		81B0AEB72757653600F07D68 /* SignerError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0AEB62757653600F07D68 /* SignerError.swift */; };
-		81B0AEBA2757655100F07D68 /* SegwitAddrCoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0AEB92757655100F07D68 /* SegwitAddrCoder.swift */; };
-		81B0AEBD2757656100F07D68 /* Bech32.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B0AEBC2757656100F07D68 /* Bech32.swift */; };
 		CFEB512A57C1650E17762584 /* Pods_Secp256k1Signing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A204890A92574963F99FA40E /* Pods_Secp256k1Signing.framework */; };
 /* End PBXBuildFile section */
 
@@ -22,8 +20,6 @@
 		81B0AEA82757649700F07D68 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		81B0AEB32757651D00F07D68 /* Signer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signer.swift; sourceTree = "<group>"; };
 		81B0AEB62757653600F07D68 /* SignerError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignerError.swift; sourceTree = "<group>"; };
-		81B0AEB92757655100F07D68 /* SegwitAddrCoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegwitAddrCoder.swift; sourceTree = "<group>"; };
-		81B0AEBC2757656100F07D68 /* Bech32.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bech32.swift; sourceTree = "<group>"; };
 		9FB78CDEF947219162B09B42 /* Pods-Secp256k1Signing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Secp256k1Signing.release.xcconfig"; path = "Target Support Files/Pods-Secp256k1Signing/Pods-Secp256k1Signing.release.xcconfig"; sourceTree = "<group>"; };
 		A204890A92574963F99FA40E /* Pods_Secp256k1Signing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Secp256k1Signing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -82,8 +78,6 @@
 				81B0AEA82757649700F07D68 /* Info.plist */,
 				81B0AEB32757651D00F07D68 /* Signer.swift */,
 				81B0AEB62757653600F07D68 /* SignerError.swift */,
-				81B0AEB92757655100F07D68 /* SegwitAddrCoder.swift */,
-				81B0AEBC2757656100F07D68 /* Bech32.swift */,
 			);
 			path = Secp256k1Signing;
 			sourceTree = "<group>";
@@ -195,8 +189,6 @@
 			files = (
 				81B0AEB72757653600F07D68 /* SignerError.swift in Sources */,
 				81B0AEB42757651D00F07D68 /* Signer.swift in Sources */,
-				81B0AEBD2757656100F07D68 /* Bech32.swift in Sources */,
-				81B0AEBA2757655100F07D68 /* SegwitAddrCoder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
