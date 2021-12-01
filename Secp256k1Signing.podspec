@@ -1,7 +1,7 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "Secp256k1Signing"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "iOS端 椭圆曲线 Secp256k1 签名与验签的实现"
 
   spec.description = '椭圆曲线 Secp256k1 签名与验签的实现'
